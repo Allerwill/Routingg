@@ -2,7 +2,7 @@ import React from 'react';
 import './App.scss';
 import  Nav from './views/Nav';
 import  About from './views/About';
-import  Shop from './views/Shop';
+import  Tour from './views/Tour';
 import Contact from './views/Contact';
 import Home from "./views/Home";
 
@@ -15,7 +15,7 @@ function App() {
             <Switch>
             <Route path="/home" component={Home}/>
             <Route path="/about" component={About}/>
-            <Route path="/shop" component={Shop}/>
+            <Route path="/tour" component={Tour}/>
             <Route path="/contact" component={Contact}/>
             </Switch>
             <footer>FIT-TDC &copy; 2020</footer>
