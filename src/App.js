@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import  Nav from './views/Nav';
 import  About from './views/About';
 import  Shop from './views/Shop';
@@ -18,8 +18,10 @@ function App() {
             <Route path="/shop" component={Shop}/>
             <Route path="/contact" component={Contact}/>
             </Switch>
+            <footer>FIT-TDC &copy; 2020</footer>
         </div>
       </Router>
+
   );
 }
 

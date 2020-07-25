@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../App.scss';
 import {Link} from 'react-router-dom';
 import {white} from "color-name";
 import {decorator} from "@babel/types";
